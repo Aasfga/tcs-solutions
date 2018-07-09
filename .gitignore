@@ -83,7 +83,6 @@ CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Testing
-Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
@@ -337,5 +336,6 @@ Temporary Items
 
 # End of https://www.gitignore.io/api/macos
 
+__pycache__/*
 
 # End of https://www.gitignore.io/api/c,c++,java,cmake,gradle,python,assembler,jetbrains+all
