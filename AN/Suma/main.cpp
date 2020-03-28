@@ -2,10 +2,10 @@
 
 int main() {
     int n;
-    double sum = 0;
-    double c = 0;
-    double value;
-    double new_sum;
+    long double sum = 0;
+    long double c = 0;
+    long double value;
+    long double new_sum;
 
     std::cin>> n;
     while(n--) {
@@ -15,7 +15,7 @@ int main() {
         c = (new_sum - sum) - value;
         sum = new_sum;
     }
-    std::cout.precision(5);
-    std::cout<< sum<< "\n";
+    std::cout.precision(10);
+    std::cout<< std::fixed<< sum<< "\n";
     return 0;
 }
